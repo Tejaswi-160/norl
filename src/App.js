@@ -6,9 +6,22 @@ import { Signup } from './Signup';
 import { BrowserRouter ,Route,Routes,Link} from "react-router-dom"
 function App() {
   return (
-    <>
-    <h1>hello</h1>
-    </>
+    <div >
+   
+    <BrowserRouter>
+   
+        <Routes>
+
+        <Route path="/" element={<Home/>}/>
+        <Route path="/login" element={<Login/>}/>
+        <Route path="login/Signup" element={<Signup/>}/>
+        
+       
+        
+        </Routes>
+    </BrowserRouter>
+      
+    </div>
   );
 }
 
