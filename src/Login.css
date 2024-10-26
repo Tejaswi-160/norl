@@ -1,0 +1,37 @@
+
+
+.login-background {
+    background-image: url("../public/Images/bg2");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center; /* aligns horizontally to center*/
+    align-items: center; /* aligns items to center vertically*/
+  }
+  
+  .c1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center text within the container */
+    max-width: 350px; /* Limit the width of the container */
+  }
+  
+  input {
+    width: 90%; /* Make inputs full width */
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 90%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
