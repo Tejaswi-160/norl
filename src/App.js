@@ -7,6 +7,7 @@ import { BrowserRouter ,Route,Routes,Link} from "react-router-dom"
 function App() {
   return (
     <div >
+      <h1>hello</h1>
    
     <BrowserRouter>
    
